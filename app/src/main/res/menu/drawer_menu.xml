@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fr1"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Fragment 1" />
+
+    <item
+        android:id="@+id/fr2"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Fragment 2" />
+
+    <item
+        android:id="@+id/fr3"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="Fragment 3" />
+
+    <item
+        android:id="@+id/go"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Go to Other Activity" />
+
+    <item
+        android:id="@+id/close"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Close this App" />
+</menu>

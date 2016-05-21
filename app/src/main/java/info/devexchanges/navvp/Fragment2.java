@@ -1,5 +1,6 @@
 package info.devexchanges.navvp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -33,6 +34,9 @@ public class Fragment2 extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getActivity(), "You clicked at position: " + (position + 1), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), DesActivity.class);
+                intent.putExtra("string", "go to another Activity from ListView position: " + (position + 1));
+                startActivity(intent);
             }
         });
     }
